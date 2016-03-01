@@ -24,8 +24,10 @@ public class LambdaMapReduce {
         //3 reduce 折叠 合并 简化
         //使用初始值的reduce，因为提供了初始值，所以返回值不再是Optional
         //reduce并不是一种新的操作，在SQL中我们用的一些聚集函数比如sum，avg，count等他们实际上也是reduce操作
-        Integer sum = numbers.stream()
-                .reduce(0, (a, b) -> a + b);
-        System.out.println("sum:" + sum);
+//        Integer sum = numbers.stream()
+//                .reduce(0, (a, b) -> a + b);
+//        System.out.println("sum:" + sum);
+
+
     }
 }
